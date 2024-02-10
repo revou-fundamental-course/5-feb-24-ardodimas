@@ -1,0 +1,104 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    border-radius: 60px;
+}
+.header2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    display: inline-block;
+    width: 70px;
+    border-radius: 60px;
+}
+
+.tugas {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-kanan {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.paragraph-awal {
+    margin-top: 50px;
+    width: 600px;
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 15px;
+}
+
+.input-celcius {
+    width: 500px;
+    height: 80px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.konversi-button {
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+}
+
+.konversi-button:hover {
+    opacity: 0.7;
+    transition: opacity 0.15;
+    cursor: pointer;
+}
+.konversi-button:active {
+    opacity: 0.3;
+}
+
+.reset-button {
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+}
+
+.reset-button:hover {
+    opacity: 0.7;
+    transition: opacity 0.15;
+    cursor: pointer;
+}
+.reset-button:active {
+    opacity: 0.3;
+}
+
+.reserve-button {
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+}
+
+.reserve-button:hover {
+    opacity: 0.7;
+    transition: opacity 0.15;
+    cursor: pointer;
+}
+.reserve-button:active {
+    opacity: 0.3;
+}
+
+.footer {
+    padding-top: 30px ;
+}
